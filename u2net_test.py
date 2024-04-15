@@ -13,13 +13,13 @@ import numpy as np
 from PIL import Image
 import glob
 
-from ai_virtual_wardrobe.u2net.data_loader import RescaleT
-from ai_virtual_wardrobe.u2net.data_loader import ToTensor
-from ai_virtual_wardrobe.u2net.data_loader import ToTensorLab
-from ai_virtual_wardrobe.u2net.data_loader import SalObjDataset
+from AI_Virtual_Wardrobe.u2net.data_loader import RescaleT
+from AI_Virtual_Wardrobe.u2net.data_loader import ToTensor
+from AI_Virtual_Wardrobe.u2net.data_loader import ToTensorLab
+from AI_Virtual_Wardrobe.u2net.data_loader import SalObjDataset
 
-from ai_virtual_wardrobe.u2net.model import U2NET # full size version 173.6 MB
-from ai_virtual_wardrobe.u2net.model import U2NETP # small version u2net 4.7 MB
+from AI_Virtual_Wardrobe.u2net.model import U2NET # full size version 173.6 MB
+from AI_Virtual_Wardrobe.u2net.model import U2NETP # small version u2net 4.7 MB
 
 # normalize the predicted SOD probability map
 def normPRED(d):
