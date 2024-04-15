@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms#, utils
-from ai_virtual_wardrobe.u2net.u2net_test import normPRED
+from AI_Virtual_Wardrobe.u2net.u2net_test import normPRED
 # import torch.optim as optim
 
 import numpy as np
@@ -15,10 +15,10 @@ from PIL import Image
 import glob
 import warnings
 
-from ai_virtual_wardrobe.u2net.data_loader import RescaleT
-from ai_virtual_wardrobe.u2net.data_loader import ToTensor
-from ai_virtual_wardrobe.u2net.data_loader import ToTensorLab
-from ai_virtual_wardrobe.u2net.data_loader import SalObjDataset
+from AI_Virtual_Wardrobe.u2net.data_loader import RescaleT
+from AI_Virtual_Wardrobe.u2net.data_loader import ToTensor
+from AI_Virtual_Wardrobe.u2net.data_loader import ToTensorLab
+from AI_Virtual_Wardrobe.u2net.data_loader import SalObjDataset
 
 warnings.filterwarnings("ignore")
 
