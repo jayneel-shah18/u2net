@@ -1,7 +1,7 @@
 import os
 import torch
-from AI_Virtual_Wardrobe.u2net.model import U2NET # full size version 173.6 MB
-from AI_Virtual_Wardrobe.u2net.model import U2NETP # small version u2net 4.7 MB
+from u2net.model import U2NET # full size version 173.6 MB
+from u2net.model import U2NETP # small version u2net 4.7 MB
 
 
 def model(model_name='u2net'):
