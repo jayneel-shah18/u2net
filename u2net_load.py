@@ -7,7 +7,7 @@ from u2net.model import U2NETP # small version u2net 4.7 MB
 def model(model_name='u2net'):
 
 
-    model_dir = '/content/AI-Virtual-Wardrobe/u2net/saved_models/u2netp/u2netp.pth'
+    model_dir = '/content/AI_Virtual_Wardrobe/u2net/saved_models/u2netp/u2netp.pth'
 
     if(model_name=='u2net'):
         print("...load U2NET---173.6 MB")
